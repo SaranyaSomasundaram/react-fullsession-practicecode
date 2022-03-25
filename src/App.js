@@ -1,9 +1,13 @@
-import './App.css';
+import React from "react";
+import Header from "./Header/Header";
+import Content from "./Content/Content";
+
 
 function App() {
   return (
-    <div className="App">
-      <p>Hey im  your init app</p>
+    <div className="container">
+      <Header></Header>
+      <Content></Content>
     </div>
   );
 }

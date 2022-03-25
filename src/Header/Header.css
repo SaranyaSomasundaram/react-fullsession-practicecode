@@ -1,0 +1,83 @@
+#maindiv{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+#header{
+    height: 100px;
+    width: 95%;
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e4e4e4;
+}
+#companyname{
+    color:#5886f0;
+    position: relative;
+    right: 137px;
+    font-size: 17px;
+}
+
+
+#searchbar{
+    height: 50px;
+    width: 55%;
+    border:1px solid #ced4da;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 76px;
+    border-radius: 5px;
+}
+
+
+#search{
+    height: 50px;
+    width: 9%;
+    border: 1px solid #3267eb;
+    background-color: #3267eb;
+    font-size: 29px;
+    color: white;
+}
+
+.img{
+    height: 168px;
+    width: 168px;
+
+}
+#image{
+    position: relative;
+    left: 46px;
+    bottom: 27px;
+}
+#icon-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    color: gray;
+}
+#count{
+    height: 19px;
+    width: 11px;
+    background-color: red;
+    border-radius: 50%;
+    padding-left: 7px;
+    color: white;
+    position: relative;
+    bottom: 15px;
+    right: 4px;
+
+}
+#search-text{
+    padding-right: 354px;
+    color: gray;
+}
+#search-text{
+    padding-right: 352px;
+    color: gray;
+}
