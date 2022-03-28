@@ -103,3 +103,40 @@ function recursion(a, i = 0) {
 recursion(["apple", "mango", "apple", "jackfruit", "mango", "apple"])
 { apple: 3, mango: 2, jackfruit: 1 }
 
+//duplicate counts in singel value:
+var a = [1, 2, 3, 3, 2, 2, 4]
+
+var result = {}
+a.forEach((item) => {
+
+    if (result[item]) {
+        result[item] = result[item] + 1;
+
+    } else {
+
+        result[item] = 1
+
+
+    }
+})
+
+//output
+var m = result
+
+result
+{ 1: 1, 2: 3, 3: 2, 4: 1 }
+
+var x=Object.values(m)
+undefined
+x
+[1, 3, 2, 1]
+var b=x.filter((item)=>
+    {
+     return item >1  
+        
+    })
+
+b
+[3, 2]
+b.length
+2
